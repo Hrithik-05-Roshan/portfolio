@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hrithik Burnwal | Portfolio</title>
+  <meta name="description" content="Hrithik Burnwal — B.Tech CSE. Full-stack web projects, teaching math & physics, UI/UX design, and practical problem solving with code." />
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <h1 class="logo">Hrithik<span>Burnwal</span></h1>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero (reduced vertical space) -->
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <h2>Hi, I'm <span class="highlight">Hrithik</span> 👋</h2>
+        <p class="subtitle">B-Tech CSE Student • Developer • UI/UX Designer</p>
+        <a class="btn see-work" href="#contact" aria-label="See my work">Reach Out</a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+      <div class="about-wrap">
+        <div class="about-left">
+          <h2 class="about-title">About Me</h2>
+          <p class="about-lead">
+            I’m pursuing B.Tech in Computer Science Engineering at Asansol Engineering College (2024–2028). I’m passionate about turning ideas into practical tools that solve real-world problems — which led me to start <a href="https://www.instagram.com/framelit.studio/" target="_blank" style="color: #0d00ff; text-decoration: underline;"><strong>Framelit↗</strong></a>. Beyond academics, I actively contribute to open-source projects, participate in hackathons, and enjoy collaborating with developers in the community.
+          </p>
+          <p class="about-text">
+            Outside of code, I mentor students in Math & Physics, play chess to sharpen my strategy, and love the energy of competitive cricket. For me, learning is continuous — whether it’s building, teaching, or sharing knowledge with others.
+          </p>
+        </div>
+
+        <div class="about-right">
+          <div class="about-card reveal" aria-hidden="false">
+            <div class="about-stats"> 
+              <div class="stat">
+                <div class="stat-num">3+</div>
+                <div class="stat-label">Projects shipped</div>
+              </div>
+              <div class="stat">
+                <div class="stat-num">UI/UX</div>
+                <div class="stat-label">Designer</div>
+              </div>
+              <div class="stat">
+                <div class="stat-num">Mentor</div>
+                <div class="stat-label">10+ students tutored</div>
+              </div>
+            </div>
+            <p class="muted about-note">I blend problem-solving with design thinking — prototype fast, test often, and keep solutions simple.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills (4-part) -->
+    <section id="skills" class="skills-section">
+      <div class="section-head">
+        <h2>My Skills</h2>
+        <p class="muted">Technologies, expertise, and passions I bring to the table.</p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Languages -->
+        <div class="skill-card reveal" aria-labelledby="skills-languages">
+          <h3 id="skills-languages">Programming Languages</h3>
+          <div class="skill-tags">
+            <span class="tag">C</span>
+            <span class="tag">C++</span>
+            <span class="tag">Python</span>
+            <span class="tag">Java</span>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+
+        <!-- Tools & Technologies -->
+        <div class="skill-card reveal" aria-labelledby="skills-tools">
+          <h3 id="skills-tools">Tools & Technologies</h3>
+          <div class="skill-tags">
+            <span class="tag">MySQL</span>
+            <span class="tag">MongoDB</span>
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">Figma</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Linux</span>
+          </div>
+        </div>
+
+        <!-- Expertise -->
+        <div class="skill-card reveal" aria-labelledby="skills-expertise">
+          <h3 id="skills-expertise">Expertise</h3>
+          <div class="skill-tags">
+            <span class="tag">Full-stack Development</span>
+            <span class="tag">UI/UX Design</span>
+            <span class="tag">Problem Solving</span>
+            <span class="tag">Database Management</span>
+            <span class="tag">Mentoring</span>
+          </div>
+        </div>
+
+        <!-- Hobbies -->
+        <div class="skill-card reveal" aria-labelledby="skills-hobbies">
+          <h3 id="skills-hobbies">Hobbies</h3>
+          <div class="skill-tags">
+            <span class="tag">Chess</span>
+            <span class="tag">Cricket</span>
+            <span class="tag">Math & Physics</span>
+            <span class="tag">Designing</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects (grid as original) -->
+    <section id="projects" class="projects">
+      <div class="section-head">
+        <h2>Handbuild Projects</h2>
+        <p class="muted">Practical builds — engineered to solve problems.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <div class="card-top"><span class="tag small">Web App</span></div>
+          <h3>Attendance Tracker</h3>
+          <p>Modern web app with QR-based attendance & role-specific dashboards.</p>
+          <a class="card-btn" href="#" aria-label="Open Attendance Tracker">Live / Repo</a>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="card-top"><span class="tag small">Agency</span></div>
+          <h3>Framelit</h3>
+          <p>Creative content studio — visual identity, editing, storytelling.</p>
+          <a class="card-btn" href="https://www.instagram.com/framelit.studio/" target="_blank" aria-label="Open Framelit case study" >Case Study</a>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="card-top"><span class="tag small">Dashboard</span></div>
+          <h3>My Study Dashboard</h3>
+          <p>Track study time, schedule sessions, and log subject-wise progress.</p>
+          <a class="card-btn" href="#" aria-label="Open Study Dashboard prototype">Prototype</a>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="card-top"><span class="tag small">System</span></div>
+          <h3>Automated Library Checkout System</h3>
+          <p>QR checkout + auto-record updates to streamline lending in libraries.</p>
+          <a class="card-btn" href="#" aria-label="Open Library Checkout details">Details</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <div class="contact-wrap">
+        <!-- 1) Get in Touch (left) -->
+        <div class="contact-left">
+          <h2>Get in Touch</h2>
+          <p class="muted">Prefer short, meaningful messages — collabs, tutoring, or product ideas.</p>
+
+          <div class="contact-small">
+            <a class="pill" href="https://github.com/Hrithik-05-Roshan" target="_blank" rel="noreferrer" aria-label="GitHub profile">
+              <i class="fab fa-github small" aria-hidden="true"></i>
+              <span>GitHub</span>
+            </a>
+
+            <a class="pill" href="https://linkedin.com/in/hrithik-barnwal-6aab3a208/" target="_blank" rel="noreferrer" aria-label="LinkedIn profile">
+              <i class="fab fa-linkedin small" aria-hidden="true"></i>
+              <span>LinkedIn</span>
+            </a>
+
+            <a class="pill" href="https://www.instagram.com/hrithik.burnwal.9/" target="_blank" rel="noreferrer" aria-label="Instagram profile">
+              <i class="fab fa-instagram small" aria-hidden="true"></i>
+              <span>Instagram</span>
+            </a>
+
+            <a class="pill" href="https://x.com/HrithikBurnwal/" target="_blank" rel="noreferrer" aria-label="X profile">
+              <i class="fab fa-x small" aria-hidden="true"></i>
+              <span>Twitter</span>
+            </a>
+
+            <a class="pill" href="https://www.facebook.com/hrithik.burnwal.9/" target="_blank" rel="noreferrer" aria-label="Facebook profile">
+              <i class="fab fa-facebook-f small" aria-hidden="true"></i>
+              <span>Facebook</span>
+            </a>
+
+            <a class="pill" href="https://www.threads.com/hrithik.burnwal.9/" target="_blank" rel="noreferrer" aria-label="Threads profile">
+              <i class="fab fa-threads-f small" aria-hidden="true"></i>
+              <span>Threads</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 2) Quick contact (middle) -->
+        <div class="contact-middle">
+          <h3 class="contact-title">Quick contact</h3>
+          <ul class="contact-list">
+            <li>
+              <i class="fas fa-phone icon-small" aria-hidden="true"></i>
+              <!-- copy phone button -->
+              <button id="copy-phone" class="link-button" aria-label="Copy phone number">+91 6296106797</button>
+            </li>
+
+            <li>
+              <i class="fas fa-envelope icon-small" aria-hidden="true"></i>
+              <!-- copy email button -->
+              <button id="copy-email" class="link-button" aria-label="Copy email address">rockbelt93@gmail.com</button>
+            </li>
+
+            <li>
+              <i class="fas fa-user-graduate icon-small" aria-hidden="true"></i>
+              <span>Open to tutoring & short-term freelance projects</span>
+            </li>
+
+            <li>
+              <i class="fas fa-clock icon-small" aria-hidden="true"></i>
+              <span>Support: 10am–6pm (local)</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 3) Form (right) -->
+        <div class="contact-right">
+          <h3 class="contact-title">Message</h3>
+
+          <!-- Formspree contact form (action uses the ID you provided) -->
+          <form id="contact-form" class="contact-form" action="https://formspree.io/f/movkqkqb" method="POST" aria-label="Send a message">
+            <input id="cf-name" name="name" type="text" placeholder="Your name" required>
+            <input id="cf-email" name="email" type="email" placeholder="Your email" required>
+            <textarea id="cf-message" name="message" rows="4" placeholder="Write a short message..." required></textarea>
+            <button type="submit" class="form-btn" aria-label="Send message">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="copyright">© 2025, <strong>Hrithik Burnwal.</strong> All Rights Reserved</div>
+    </div>
+  </footer>
+
+  <!-- Toast -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
